@@ -1,0 +1,18 @@
+#navbar {
+    display: flex;
+    background-color: rgb(195, 153, 234);
+    justify-content: space-around;
+    padding: 20px 0px;
+    font-size: 30px;
+    box-shadow: 0 5px 10px 2px rgb(147, 115, 176);
+}
+
+.nav-item {
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.nav-item:hover {
+    box-shadow: 0 -.1px 7px 1px rgb(117, 34, 102), 0 .1px 7px 1px rgb(117, 34, 102), -.1px 0 7px 1px rgb(117, 34, 102), .1px 0 7px 1px rgb(117, 34, 102);
+    background-color: rgb(202, 165, 236);
+}

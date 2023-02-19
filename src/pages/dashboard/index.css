@@ -1,0 +1,48 @@
+table {
+    width: 70%;
+    margin: 0px auto 0px auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid black;
+    background-color: rgb(237, 237, 237);
+    font-size: 22px;
+}
+
+    tr:hover {
+        background-color: rgb(188, 188, 188);
+    }
+
+tr:nth-child(even) {
+    background-color: rgb(224, 224, 224);
+}
+
+    tr:nth-child(even):hover {
+        background-color: rgb(188, 188, 188);
+    }
+
+#header-tr {
+    border: none;
+    background-color: transparent;
+}
+
+.stock-change-cell-pos {
+    color: green;
+    text-decoration: none;
+}
+
+.stock-change-cell-neg {
+    color: red;
+    text-decoration: none;
+}
+
+/* Link {
+    text-decoration: none;
+} */
+
+/* .stock-name-cell {
+    width: 70%;
+} */
+
+/* make leftmost table column 70% width */
